@@ -51,7 +51,7 @@
         <translation>Баланс рахунку</translation>
     </message>
     <message>
-        <source> krb</source>
+        <source> nbr</source>
         <translation> крб.</translation>
     </message>
     <message>
@@ -186,11 +186,11 @@
 <context>
     <name>ConfirmSendDialog</name>
     <message>
-        <source>Comfirm sending %1 KRB</source>
+        <source>Comfirm sending %1 NBR</source>
         <translation>Пацверджанне адпраўкі %1 крб.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want to send &lt;strong&gt;%1 KRB&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want to send &lt;strong&gt;%1 NBR&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Жадаеце выслаць &lt;strong&gt;%1 крб.&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
@@ -253,7 +253,7 @@
         <translation>Дадаць вузел</translation>
     </message>
     <message>
-        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 10 KRB.</source>
+        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 10 NBR.</source>
         <translation>Гаманец будзе падлучацца да вузла ў лакальнай або глабальнай сеткі. Выберыце вузел або пакажыце IP адрас або дамен і порт каб дадаць новы. У гэтым рэжыме гаманец плаціць камісію вузлу ў памеры 0,25% ад сумы транзакцыі, але не больш за 10 крб.</translation>
     </message>
     <message>
@@ -1385,7 +1385,7 @@ Do you want to go to download page?</source>
 <context>
     <name>WalletGui::ConfirmSendDialog</name>
     <message>
-        <source>Confirm sending %1 KRB</source>
+        <source>Confirm sending %1 NBR</source>
         <translation>Пацвердзіце адпраўку %1 крб.</translation>
     </message>
     <message>
@@ -1562,7 +1562,7 @@ Are you sure?</source>
         </translation>
     </message>
     <message>
-        <source>Karbo Wallet %1</source>
+        <source>Niobio Wallet %1</source>
         <translation>Карбованець в. %1</translation>
     </message>
     <message numerus="yes">
@@ -1586,7 +1586,7 @@ Are you sure?</source>
         <translation type="vanished">Сума: %1, хэш: %2</translation>
     </message>
     <message>
-        <source>Karbo Wallet</source>
+        <source>Niobio Wallet</source>
         <translation type="vanished">Карбованець</translation>
     </message>
     <message>

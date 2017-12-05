@@ -286,10 +286,10 @@ elseif (UNIX)
         set(CPACK_GENERATOR DEB)
         set(CPACK_DEBIAN_PACKAGE_NAME ${CPACK_PACKAGE_NAME})
         set(CPACK_SYSTEM_NAME 64-bit)
-        set(CPACK_DEBIAN_PACKAGE_MAINTAINER "${CPACK_PACKAGE_VENDOR} <krbcoin@ukr.net>")
+        set(CPACK_DEBIAN_PACKAGE_MAINTAINER "${CPACK_PACKAGE_VENDOR} <nbrcoin@ukr.net>")
         set(CPACK_DEBIAN_PACKAGE_SECTION Office)
         set(CPACK_DEBIAN_PACKAGE_SHLIBDEPS ON)
-        set(CPACK_DEBIAN_PACKAGE_DESCRIPTION "Karbowanec KRB wallet
+        set(CPACK_DEBIAN_PACKAGE_DESCRIPTION "Karbowanec NBR wallet
  Karbowanec is Ukrainian decentralized, privacy oriented peer-to-peer
  cryptocurrency. It is open-source, nobody owns or controls Karbowanec
  and everyone can take part.")
@@ -301,8 +301,8 @@ set(CPACK_PACKAGE_FILE_NAME "${CPACK_DEBIAN_PACKAGE_NAME}-${CPACK_PACKAGE_VERSIO
         set(CPACK_RPM_PACKAGE_LICENSE "MIT")
         set(CPACK_RPM_PACKAGE_GROUP Office)
         set(CPACK_RPM_PACKAGE_REQUIRES "qt5-qtbase >= 5.3.2, qt5-qtbase-gui >= 5.3.2")
-        set(CPACK_RPM_PACKAGE_SUMMARY "Karbowanec KRB wallet")
-        set(CPACK_RPM_PACKAGE_DESCRIPTION "Karbowanec KRB wallet
+        set(CPACK_RPM_PACKAGE_SUMMARY "Karbowanec NBR wallet")
+        set(CPACK_RPM_PACKAGE_DESCRIPTION "Karbowanec NBR wallet
  Karbowanec is Ukrainian decentrilized, privacy oriented peer-to-peer
  cryptocurrency. It is open-source, nobody owns or controls Karbowanec
  and everyone can take part.")

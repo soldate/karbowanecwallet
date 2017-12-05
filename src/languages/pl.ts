@@ -51,8 +51,8 @@
         <translation>Saldo konta</translation>
     </message>
     <message>
-        <source> krb</source>
-        <translation> krb.</translation>
+        <source> nbr</source>
+        <translation> nbr.</translation>
     </message>
     <message>
         <source>Frame</source>
@@ -186,12 +186,12 @@
 <context>
     <name>ConfirmSendDialog</name>
     <message>
-        <source>Comfirm sending %1 KRB</source>
-        <translation>Potwierdź wysłanie %1 KRB</translation>
+        <source>Comfirm sending %1 NBR</source>
+        <translation>Potwierdź wysłanie %1 NBR</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want to send &lt;strong&gt;%1 KRB&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Czy na pewno chcesz wysłać &lt;strong&gt;%1 KRB&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want to send &lt;strong&gt;%1 NBR&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Czy na pewno chcesz wysłać &lt;strong&gt;%1 NBR&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Yes</source>
@@ -253,8 +253,8 @@
         <translation>Wbudowany</translation>
     </message>
     <message>
-        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 10 KRB.</source>
-        <translation>Portfel będzie łączyć się ze zdalnym węzłem w sieci lokalnej lub globalnej. Wybierz węzeł lub kliknij &quot;Dodaj węzeł&quot; i podaj adres IP czy nazwę domeny i port. W tym trybie portfel płaci prowizję dla węzła w rozmiarze 0,25% od sumy transakcji, ale nie więcej niż 10 krb.</translation>
+        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 10 NBR.</source>
+        <translation>Portfel będzie łączyć się ze zdalnym węzłem w sieci lokalnej lub globalnej. Wybierz węzeł lub kliknij &quot;Dodaj węzeł&quot; i podaj adres IP czy nazwę domeny i port. W tym trybie portfel płaci prowizję dla węzła w rozmiarze 0,25% od sumy transakcji, ale nie więcej niż 10 nbr.</translation>
     </message>
     <message>
         <source>Remove node</source>
@@ -1385,8 +1385,8 @@ Czy chesz otworzyć stronę pobierania w przeglądarce?</translation>
 <context>
     <name>WalletGui::ConfirmSendDialog</name>
     <message>
-        <source>Confirm sending %1 KRB</source>
-        <translation>Potwierdź wysłanie %1 KRB</translation>
+        <source>Confirm sending %1 NBR</source>
+        <translation>Potwierdź wysłanie %1 NBR</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Payment ID: %1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -1562,7 +1562,7 @@ Jesteś pewien?</translation>
         </translation>
     </message>
     <message>
-        <source>Karbo Wallet %1</source>
+        <source>Niobio Wallet %1</source>
         <translation>Karbowaneć v. %1</translation>
     </message>
     <message numerus="yes">
@@ -1586,7 +1586,7 @@ Jesteś pewien?</translation>
         <translation type="vanished">Kwota: %1, hash: %2</translation>
     </message>
     <message>
-        <source>Karbo Wallet</source>
+        <source>Niobio Wallet</source>
         <translation type="vanished">Karbowaniec</translation>
     </message>
     <message>
