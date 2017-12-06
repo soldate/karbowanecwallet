@@ -1,20 +1,20 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Karbo
-GenericName=Karbo wallet
+Name=Niobio
+GenericName=Niobio wallet
 Name[uk]=Карбованeць
 Name[ru]=Карбованeц
 Name[pl]=Karbowaneć
 Name[be]=Карбованэць
-Comment=Karbovanets wallet
+Comment=Niobio wallet
 Comment[uk]=Гаманець Карбованца
 Comment[ru]=Кошелек Карбованца
 Comment[pl]=Portfel Karbowańca
 Comment[be]=Кашалёк Карбованца
-Exec=karbowanec %U
+Exec=niobio %U
 Terminal=false
 Type=Application
 Icon=karbowanec
 MimeType=x-scheme-handler/karbowanec;
 Categories=Office;Finance;
-Version=1.1.9
+Version=0.0.1
