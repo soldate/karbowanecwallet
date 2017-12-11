@@ -174,6 +174,8 @@ void MiningFrame::stopMining() {
 }
 
 void MiningFrame::startSolo() {
+	startMining();
+  /*
   NodeAdapter::instance().startSoloMining(m_walletAddress, m_ui->m_cpuCombo->currentData().toUInt());
   m_ui->m_soloLabel->setText(tr("Starting solo minining..."));
   m_soloHashRateTimerId = startTimer(HASHRATE_TIMER_INTERVAL);
@@ -181,15 +183,19 @@ void MiningFrame::startSolo() {
   m_ui->m_startSolo->setEnabled(false);
   m_ui->m_stopSolo->setEnabled(true);
   m_solo_mining = true;
+  */
 }
 
 void MiningFrame::stopSolo() {
+	stopMining();
+  /*
   if(m_solo_mining) {
   killTimer(m_soloHashRateTimerId);
   m_soloHashRateTimerId = -1;
   NodeAdapter::instance().stopSoloMining();
   m_ui->m_soloLabel->setText(tr("Stopped"));
   }
+  */
 }
 
 void MiningFrame::addPoolClicked() {
