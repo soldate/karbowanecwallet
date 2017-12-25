@@ -1367,7 +1367,7 @@ Do you want to go to download page?</source>
         <translation>Запустити програму мінімізовану</translation>
     </message>
     <message>
-        <source>Karbowanec wallet</source>
+        <source>niobio wallet</source>
         <translation>Гаманець карбованця</translation>
     </message>
     <message>
