@@ -57,7 +57,7 @@ void Settings::load() {
     }
 
     if (!m_settings.contains(OPTION_LANGUAGE)) {
-         m_currentLang = "uk";
+         m_currentLang = "en";
     }
 
     if (!m_settings.contains(OPTION_CONNECTION)) {
@@ -103,7 +103,7 @@ void Settings::load() {
   }
 
   QStringList defaultNodesList;
-  defaultNodesList << "138.197.222.188:8313" << "45.55.141.227:8313" << "35.200.110.7:8313" << "45.55.172.1:8313";
+  defaultNodesList << "138.197.222.188:8314" << "45.55.141.227:8314" << "35.200.110.7:8314" << "45.55.172.1:8314";
   if (!m_settings.contains(OPTION_RPCNODES)) {
     setRpcNodesList(QStringList() << defaultNodesList);
   } else {

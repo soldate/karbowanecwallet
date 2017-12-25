@@ -20,21 +20,9 @@ void ChangeLanguageDialog::initLangList() {
 
      int index = 0;
 
-         if(currentlang.compare("uk") == 0)
+         if(currentlang.compare("pt") == 0)
          {
              index = 1;
-         }
-         else if(currentlang.compare("ru") == 0)
-         {
-             index = 2;
-         }
-         else if(currentlang.compare("pl") == 0)
-         {
-             index = 3;
-         }
-         else if(currentlang.compare("be") == 0)
-         {
-             index = 4;
          }
 
          m_ui->ChangeLangComboBox->setCurrentIndex(index);
@@ -47,23 +35,11 @@ QString ChangeLanguageDialog::getLang() const {
      int n = m_ui->ChangeLangComboBox->currentIndex();
      if (n == 1)
          {
-             lang = "uk";
-         }
-         else if (n == 2)
-         {
-             lang = "ru";
-         }
-         else if (n == 3)
-         {
-             lang = "pl";
-         }
-         else if (n == 4)
-         {
-             lang = "be";
+             lang = "en";
          }
          else
          {
-             lang = "en";
+             lang = "pt";
          }
      return lang;
 }

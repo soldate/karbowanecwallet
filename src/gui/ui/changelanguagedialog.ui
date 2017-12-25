@@ -25,29 +25,14 @@
      </item>
      <item>
       <widget class="QComboBox" name="ChangeLangComboBox">
-       <item>
+        <item>
+          <property name="text">
+            <string>Português</string>
+          </property>
+        </item>
+        <item>
         <property name="text">
          <string>English</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Ukrainian</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Russian</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Polish</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Belarusian</string>
         </property>
        </item>
       </widget>
